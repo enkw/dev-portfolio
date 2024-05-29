@@ -1,0 +1,61 @@
+#selfie {
+    width: 50%;
+    height: auto;
+}
+
+#foot {
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+    padding-bottom: 1%;
+}
+
+#image-box {
+    padding-left: 12%;
+}
+
+#text-box {
+    padding-top: 12%;
+    padding-left: 6%;
+}
+
+.rock-3d-regular {
+    font-family: "Rock 3D", system-ui;
+    /* font-weight: 5000;
+    font-style: normal; */
+}
+  
+
+/* Apply a black background to the entire page and set all text to white */
+body {
+    background-color: rgb(14, 13, 13);
+    color: white;
+}
+
+/* Ensure all other elements also adhere to the text color rule */
+a {
+    color: white;
+}
+
+/* Optionally, add styles to ensure links change color on hover for better visibility */
+a:hover {
+    color: #ccc; /* Light gray or any other color for better visibility on hover */
+}
+
+/* Additional customization for other elements */
+header, footer, .container, .row, .col {
+    color: white;
+}
+
+/* If using Bootstrap, override Bootstrap's default colors */
+.btn {
+    color: white;
+    background-color: #555; /* Dark button background */
+    border-color: #666; /* Slightly lighter border */
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
